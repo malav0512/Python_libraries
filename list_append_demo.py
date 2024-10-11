@@ -1,0 +1,15 @@
+spam=[8,9,10]
+spam[1]=17
+print(spam)
+spam.append(4)
+spam.append(5)
+spam.append(6)
+print(spam)
+spam.remove(spam[0])
+print(spam)
+spam.sort()
+print(spam)
+spam=spam*2
+print(spam)
+spam.insert(3,25)
+print(spam)
